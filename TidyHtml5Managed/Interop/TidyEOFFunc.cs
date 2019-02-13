@@ -25,5 +25,5 @@ using System;
 
 namespace TidyManaged.Interop
 {
-	internal delegate bool TidyEOFFunc(IntPtr sinkData);
+    internal delegate bool TidyEOFFunc(IntPtr sinkData);
 }

@@ -23,18 +23,18 @@
 
 namespace TidyManaged
 {
-	/// <summary>
-	/// Represents values used by some Tidy <see cref="Document"/> properties.
-	/// </summary>
-	public enum SortStrategy
-	{
-		/// <summary>
-		/// None.
-		/// </summary>
-		None,
-		/// <summary>
-		/// Alpha.
-		/// </summary>
-		Alpha
-	}
+    /// <summary>
+    /// Represents values used by some Tidy <see cref="Document"/> properties.
+    /// </summary>
+    public enum SortStrategy
+    {
+        /// <summary>
+        /// None.
+        /// </summary>
+        None,
+        /// <summary>
+        /// Alpha.
+        /// </summary>
+        Alpha
+    }
 }

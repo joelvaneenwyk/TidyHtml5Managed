@@ -26,27 +26,27 @@ using System.Runtime.InteropServices;
 
 namespace TidyManaged.Interop
 {
-	internal struct TidyInputSource
-	{
-		internal TidyInputSource(TidyGetByteFunc getByte, TidyUngetByteFunc ungetByte, TidyEOFFunc eof)
-		{
-			this.sourceData = IntPtr.Zero;
-			this.getByte = getByte;
-			this.ungetByte = ungetByte;
-			this.eof = eof;
-		}
+    internal struct TidyInputSource
+    {
+        internal TidyInputSource(TidyGetByteFunc getByte, TidyUngetByteFunc ungetByte, TidyEOFFunc eof)
+        {
+            this.sourceData = IntPtr.Zero;
+            this.getByte = getByte;
+            this.ungetByte = ungetByte;
+            this.eof = eof;
+        }
 
 #pragma warning disable 0414
-		IntPtr sourceData;
+        IntPtr sourceData;
 
-		[MarshalAs(UnmanagedType.FunctionPtr)]
-		TidyGetByteFunc getByte;
-		
-		[MarshalAs(UnmanagedType.FunctionPtr)]
-		TidyUngetByteFunc ungetByte;
-		
-		[MarshalAs(UnmanagedType.FunctionPtr)]
-		TidyEOFFunc eof;
+        [MarshalAs(UnmanagedType.FunctionPtr)]
+        TidyGetByteFunc getByte;
+        
+        [MarshalAs(UnmanagedType.FunctionPtr)]
+        TidyUngetByteFunc ungetByte;
+        
+        [MarshalAs(UnmanagedType.FunctionPtr)]
+        TidyEOFFunc eof;
 #pragma warning restore 0414
-	}
+    }
 }

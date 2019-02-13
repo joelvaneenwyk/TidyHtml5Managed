@@ -4,9 +4,14 @@
 *.user
 *.userprefs
 TestHarness
+TestResults
 UpgradeLog.htm
+/packages/
 /.vs/
 /Backup
 /**/bin/
 /**/obj/
 /WebEssentials2015-Settings.json
+
+# Ignore folder where we store the tidy executables
+Tidy

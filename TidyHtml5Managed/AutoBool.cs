@@ -23,22 +23,22 @@
 
 namespace TidyManaged
 {
-	/// <summary>
-	/// Represents yes/no/auto values used by some Tidy <see cref="Document"/> properties.
-	/// </summary>
-	public enum AutoBool
-	{
-		/// <summary>
-		/// No.
-		/// </summary>
-		No,
-		/// <summary>
-		/// Yes.
-		/// </summary>
-		Yes,
-		/// <summary>
-		/// Automatic.
-		/// </summary>
-		Auto
-	}
+    /// <summary>
+    /// Represents yes/no/auto values used by some Tidy <see cref="Document"/> properties.
+    /// </summary>
+    public enum AutoBool
+    {
+        /// <summary>
+        /// No.
+        /// </summary>
+        No,
+        /// <summary>
+        /// Yes.
+        /// </summary>
+        Yes,
+        /// <summary>
+        /// Automatic.
+        /// </summary>
+        Auto
+    }
 }

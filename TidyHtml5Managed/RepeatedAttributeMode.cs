@@ -23,19 +23,19 @@
 
 namespace TidyManaged
 {
-	/// <summary>
-	/// Represents the available repeated-attribute handling modes.
-	/// </summary>
-	public enum RepeatedAttributeMode
-	{
-		/// <summary>
-		/// Keep the first attribute.
-		/// </summary>
-		KeepFirst,
+    /// <summary>
+    /// Represents the available repeated-attribute handling modes.
+    /// </summary>
+    public enum RepeatedAttributeMode
+    {
+        /// <summary>
+        /// Keep the first attribute.
+        /// </summary>
+        KeepFirst,
 
-		/// <summary>
-		/// Keep the last attribute.
-		/// </summary>
-		KeepLast
-	}
+        /// <summary>
+        /// Keep the last attribute.
+        /// </summary>
+        KeepLast
+    }
 }

@@ -23,24 +23,24 @@
 
 namespace TidyManaged
 {
-	/// <summary>
-	/// Represents the available newline types.
-	/// </summary>
-	public enum NewlineType
-	{
-		/// <summary>
-		/// LF (used by Mac OS X, Unix, Linux).
-		/// </summary>
-		Linefeed,
+    /// <summary>
+    /// Represents the available newline types.
+    /// </summary>
+    public enum NewlineType
+    {
+        /// <summary>
+        /// LF (used by Mac OS X, Unix, Linux).
+        /// </summary>
+        Linefeed,
 
-		/// <summary>
-		/// CRLF (used by Microsoft Windows, DOS etc).
-		/// </summary>
-		CarriageReturnLinefeed,
+        /// <summary>
+        /// CRLF (used by Microsoft Windows, DOS etc).
+        /// </summary>
+        CarriageReturnLinefeed,
 
-		/// <summary>
-		/// CR (used by Mac OS 9 and earlier).
-		/// </summary>
-		CarriageReturn
-	}
+        /// <summary>
+        /// CR (used by Mac OS 9 and earlier).
+        /// </summary>
+        CarriageReturn
+    }
 }

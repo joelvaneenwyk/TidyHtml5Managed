@@ -23,26 +23,26 @@
 
 namespace TidyManaged
 {
-	/// <summary>
-	/// Represents the available accessibility check levels.
-	/// </summary>
-	public enum AccessibilityCheckLevel
-	{
-		/// <summary>
-		/// Equivalent to Tidy Classic's accessibility checking.
-		/// </summary>
-		TidyClassic = 0,
-		/// <summary>
-		/// Priority 1.
-		/// </summary>
-		Priority1 = 1,
-		/// <summary>
-		/// Priority 2.
-		/// </summary>
-		Priority2 = 2,
-		/// <summary>
-		/// Priority 3.
-		/// </summary>
-		Priority3 = 3
-	}
+    /// <summary>
+    /// Represents the available accessibility check levels.
+    /// </summary>
+    public enum AccessibilityCheckLevel
+    {
+        /// <summary>
+        /// Equivalent to Tidy Classic's accessibility checking.
+        /// </summary>
+        TidyClassic = 0,
+        /// <summary>
+        /// Priority 1.
+        /// </summary>
+        Priority1 = 1,
+        /// <summary>
+        /// Priority 2.
+        /// </summary>
+        Priority2 = 2,
+        /// <summary>
+        /// Priority 3.
+        /// </summary>
+        Priority3 = 3
+    }
 }

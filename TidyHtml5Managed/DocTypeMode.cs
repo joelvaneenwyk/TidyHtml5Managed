@@ -23,34 +23,34 @@
 
 namespace TidyManaged
 {
-	/// <summary>
-	/// Represents the available accessibility DOCTYPE modes.
-	/// </summary>
-	public enum DocTypeMode
-	{
-		/// <summary>
-		/// Omit DOCTYPE altogether.
-		/// </summary>
-		Omit,
+    /// <summary>
+    /// Represents the available accessibility DOCTYPE modes.
+    /// </summary>
+    public enum DocTypeMode
+    {
+        /// <summary>
+        /// Omit DOCTYPE altogether.
+        /// </summary>
+        Omit,
 
-		/// <summary>
-		/// Keep DOCTYPE in input.  Set version to content.
-		/// </summary>
-		Auto,
+        /// <summary>
+        /// Keep DOCTYPE in input.  Set version to content.
+        /// </summary>
+        Auto,
 
-		/// <summary>
-		/// Convert document to strict content model.
-		/// </summary>
-		Strict,
+        /// <summary>
+        /// Convert document to strict content model.
+        /// </summary>
+        Strict,
 
-		/// <summary>
-		/// Convert document to transitional content model.
-		/// </summary>
-		Loose,
+        /// <summary>
+        /// Convert document to transitional content model.
+        /// </summary>
+        Loose,
 
-		/// <summary>
-		/// User-specified doctype.
-		/// </summary>
-		User
-	}
+        /// <summary>
+        /// User-specified doctype.
+        /// </summary>
+        User
+    }
 }

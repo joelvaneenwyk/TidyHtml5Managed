@@ -26,20 +26,20 @@ using System.IO;
 
 namespace TidyManaged
 {
-	internal class OutputSink
-	{
-		internal OutputSink(Stream stream)
-		{
-			this.stream = stream;
-			this.TidyOutputSink = new Interop.TidyOutputSink(new Interop.TidyPutByteFunc(OnPutByte));
-		}
+    internal class OutputSink
+    {
+        internal OutputSink(Stream stream)
+        {
+            this.stream = stream;
+            this.TidyOutputSink = new Interop.TidyOutputSink(new Interop.TidyPutByteFunc(OnPutByte));
+        }
 
-		Stream stream;
-		internal Interop.TidyOutputSink TidyOutputSink;
+        Stream stream;
+        internal Interop.TidyOutputSink TidyOutputSink;
 
-		void OnPutByte(IntPtr sinkData, byte bt)
-		{
-			this.stream.WriteByte(bt);
-		}
-	}
+        void OnPutByte(IntPtr sinkData, byte bt)
+        {
+            this.stream.WriteByte(bt);
+        }
+    }
 }

@@ -15,18 +15,18 @@ namespace TidyManaged
         }
 
         /// <summary>
-		/// Saves the processed markup to a string asynchronously.
-		/// </summary>
-		/// <returns>A string containing the processed markup.</returns>
+        /// Saves the processed markup to a string asynchronously.
+        /// </summary>
+        /// <returns>A string containing the processed markup.</returns>
         public Task<string> SaveAsync()
         {
             return Task.FromResult(Save());
         }
 
         /// <summary>
-		/// Saves the processed markup to a file asynchronously.
-		/// </summary>
-		/// <param name="filePath">The full filesystem path of the file to save the markup to.</param>
+        /// Saves the processed markup to a file asynchronously.
+        /// </summary>
+        /// <param name="filePath">The full filesystem path of the file to save the markup to.</param>
         public Task SaveAsync(string filePath)
         {
             return Task.Run(() => Save(filePath));

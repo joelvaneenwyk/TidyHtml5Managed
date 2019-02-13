@@ -25,8 +25,8 @@ using System;
 
 namespace TidyManaged.Interop
 {
-	internal enum TidyOptionId
-	{
+    internal enum TidyOptionId
+    {
         TidyUnknownOption,   /*< Unknown option! */
         TidyIndentSpaces,    /*< Indentation n spaces/tabs */
         TidyWrapLen,         /*< Wrap margin */
@@ -114,17 +114,17 @@ namespace TidyManaged.Interop
         TidyEscapeCdata,     /*< Replace <![CDATA[]]> sections with escaped text */
 
 #if SUPPORT_ASIAN_ENCODINGS
-		TidyLanguage,        /*< Language property: not used for anything yet */
-		TidyNCR,             /*< Allow numeric character references */
+        TidyLanguage,        /*< Language property: not used for anything yet */
+        TidyNCR,             /*< Allow numeric character references */
 #else
-		TidyLanguageNotUsed,
-		TidyNCRNotUsed,
+        TidyLanguageNotUsed,
+        TidyNCRNotUsed,
 #endif
 #if SUPPORT_UTF16_ENCODINGS
-		TidyOutputBOM,      /*< Output a Byte Order Mark (BOM) for UTF-16 encodings */
-		                    /*< auto: if input stream has BOM, we output a BOM */
+        TidyOutputBOM,      /*< Output a Byte Order Mark (BOM) for UTF-16 encodings */
+                            /*< auto: if input stream has BOM, we output a BOM */
 #else
-		TidyOutputBOMNotUsed,
+        TidyOutputBOMNotUsed,
 #endif
 
         TidyReplaceColor,    /*< Replace hex color attribute values with names */
@@ -140,9 +140,9 @@ namespace TidyManaged.Interop
         TidyVertSpace,       /*< degree to which markup is spread out vertically */
 
 #if SUPPORT_ASIAN_ENCODINGS
-		TidyPunctWrap,       /*< consider punctuation and breaking spaces for wrapping */
+        TidyPunctWrap,       /*< consider punctuation and breaking spaces for wrapping */
 #else
-		TidyPunctWrapNotUsed,
+        TidyPunctWrapNotUsed,
 #endif
 
         TidyMergeEmphasis,       /*< Merge nested B and I elements */
@@ -155,5 +155,5 @@ namespace TidyManaged.Interop
         TidyPPrintTabs,       /*< Indent using tabs istead of spaces */
         TidySkipNested,      /*< Skip nested tags in script and style CDATA */
         N_TIDY_OPTIONS       /*< Must be last */
-	}
+    }
 }

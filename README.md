@@ -1,4 +1,5 @@
 # TidyHtml5Managed
+
 This is a managed .NET wrapper for the open source, cross-platform [Tidy HTML5](http://www.html-tidy.org/) library.
 
 TidyHtml5Managed was forked from Mark Beaton's [TidyManaged](https://github.com/markbeaton/TidyManaged), with the main objectives are to implement
@@ -7,7 +8,9 @@ the new features of Tidy HTML5 and drop support for the old Tidy library.
 Minimum version of the supported Tidy HTML5 library is [5.0.0](https://github.com/htacg/tidy-html5/releases/tag/5.0.0)
 
 ## Usage
+
 ### From Binary
+
 1. Create your new application project
 2. Get **TidyHtml5Managed.dll** from [release page](https://github.com/frandi/TidyHtml5Managed/releases) 
 (or go [build yourself](BUILD.md)), and add reference to it from your application project
@@ -16,6 +19,7 @@ Minimum version of the supported Tidy HTML5 library is [5.0.0](https://github.co
 4. Build and Run your project
 
 ### From NuGet
+
 1. Create your new application project
 2. Install TidyHtml5Managed package from NuGet
 
@@ -60,5 +64,6 @@ And here is the output:
 
 ![sample code output](images/sampleoutput.gif)
 
-## License
+# License
+
 TidyHtml5Managed uses MIT License as stated in the [License](LICENSE.md) file.

@@ -25,5 +25,5 @@ using System;
 
 namespace TidyManaged.Interop
 {
-	internal delegate void TidyPutByteFunc(IntPtr sinkData, byte bt);
+    internal delegate void TidyPutByteFunc(IntPtr sinkData, byte bt);
 }
